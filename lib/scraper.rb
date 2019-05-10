@@ -21,7 +21,7 @@ class Scraper
   end 
   
   def get_courses 
-    doc = 
+    doc.css ()
   end 
 end
 
