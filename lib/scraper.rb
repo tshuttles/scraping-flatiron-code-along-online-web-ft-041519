@@ -25,7 +25,7 @@ class Scraper
     self.get_page.css(".post")
   end 
   
-  def make_courses
+  def make_courses(course)
     new_course = Course.new(course.title, course.schedule, course.description)
   end 
 end
